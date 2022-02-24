@@ -7,7 +7,7 @@ body {
 /* TOP */
 /* Navbar */
 .navbar {
-  background-color: #364f6b;
+  background-color: #07308a;
 }
 
 .nav-link, .navbar-brand {
@@ -20,7 +20,7 @@ body {
   max-height: 550px;
   padding: 0;
   overflow: hidden;
-  background: black;
+  background: rgb(0, 0, 0);
 }
 
 .header .img {
@@ -29,9 +29,9 @@ body {
 }
 
 .header .title {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   position: absolute;
   top: 280px;
   left: 50%;
@@ -39,12 +39,12 @@ body {
 }
 
 .header .title:hover {
-  color: #eeeeee;
+  color: rgb(235, 235, 235);
 }
 
 .header .subtitle {
-  color: white;
-  font-weight: 400;
+  color: #ebdbdb;
+  font-weight: 390;
   font-size: 1.2rem;
   position: absolute;
   top: 330px;
@@ -58,22 +58,22 @@ body {
   bottom: 100px;
   z-index: 1;
   padding: 60px 120px 60px 120px;
-  background-color: #eeeeee;
-  border-top: 20px solid #364f6b;
+  background-color: rgb(240, 231, 231);
+  border-top: 20px solid #5cf237;
 }
 
 .top-box .heading {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 /* Features */
 .feature-row {
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 
 .feature-img {
   max-width: 100%;
-  border: 5px solid #364f6b;
+  border: 5px solid #5cf237;
   box-shadow: 3px 3px 3px 3px;
 }
 
@@ -89,18 +89,18 @@ body {
 .feature-txt {
   padding-left: 20px;
   padding-right: 20px;
-  color: #8f8f8f;
+  color: #8a8a8a;
 }
 
 /* Contact */
 #contact {
   padding: 100px;
-  color: white;
-  background-color: #364f6b;
+  color: rgb(0, 248, 244);
+  background-color: #000000;
 }
 
 .contact-icon {
-  width: 75px;
+  width: 85px;
 }
 
 .contact-heading {
@@ -109,7 +109,7 @@ body {
 }
 
 .contact-link {
-  color: #3fc1c9;
+  color: #6459c0;
 }
 
 .contact-link:hover {
@@ -136,8 +136,8 @@ body {
 /* Footer */
 #footer{
   padding: 50px;
-  color: white;
-  background-color: #364f6b;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 @media (max-width: 991px) {
